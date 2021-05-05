@@ -1,7 +1,7 @@
 {
   "title":"Offline web applications",
   "description":"Now deprecated method of defining web page files to be cached using a cache manifest file, allowing them to work offline on subsequent visits to the page. ",
-  "spec":"https://html.spec.whatwg.org/multipage/browsers.html#offline",
+  "spec":"https://www.w3.org/TR/2011/WD-html5-20110525/offline.html#offline",
   "status":"unoff",
   "links":[
     {
@@ -63,7 +63,10 @@
       "84":"y",
       "85":"n",
       "86":"n",
-      "87":"n"
+      "87":"n",
+      "88":"n",
+      "89":"n",
+      "90":"n"
     },
     "firefox":{
       "2":"p",
@@ -151,7 +154,12 @@
       "82":"y",
       "83":"y",
       "84":"n",
-      "85":"n"
+      "85":"n",
+      "86":"n",
+      "87":"n",
+      "88":"n",
+      "89":"n",
+      "90":"n"
     },
     "chrome":{
       "4":"y",
@@ -239,7 +247,10 @@
       "87":"n",
       "88":"n",
       "89":"n",
-      "90":"n"
+      "90":"n",
+      "91":"n",
+      "92":"n",
+      "93":"n"
     },
     "safari":{
       "3.1":"p",
@@ -263,6 +274,7 @@
       "13":"y",
       "13.1":"y",
       "14":"y",
+      "14.1":"y",
       "TP":"y"
     },
     "opera":{
@@ -332,7 +344,10 @@
       "69":"y",
       "70":"y",
       "71":"y",
-      "72":"y"
+      "72":"y",
+      "73":"n",
+      "74":"n",
+      "75":"n"
     },
     "ios_saf":{
       "3.2":"y",
@@ -355,7 +370,8 @@
       "13.2":"y",
       "13.3":"y",
       "13.4-13.7":"y",
-      "14":"y"
+      "14.0-14.4":"y",
+      "14.5":"y"
     },
     "op_mini":{
       "all":"n"
@@ -370,7 +386,7 @@
       "4.2-4.3":"y",
       "4.4":"y",
       "4.4.3-4.4.4":"y",
-      "81":"n"
+      "90":"n"
     },
     "bb":{
       "7":"y",
@@ -383,13 +399,13 @@
       "11.5":"y",
       "12":"y",
       "12.1":"y",
-      "59":"y"
+      "62":"y"
     },
     "and_chr":{
-      "87":"n"
+      "90":"n"
     },
     "and_ff":{
-      "83":"y"
+      "87":"n"
     },
     "ie_mob":{
       "10":"y",
@@ -407,7 +423,9 @@
       "9.2":"y",
       "10.1":"y",
       "11.1-11.2":"y",
-      "12.0":"y"
+      "12.0":"y",
+      "13.0":"y",
+      "14.0":"y"
     },
     "and_qq":{
       "10.4":"y"
@@ -423,7 +441,7 @@
   "notes_by_num":{
     
   },
-  "usage_perc_y":32.03,
+  "usage_perc_y":28.25,
   "usage_perc_a":0,
   "ucprefix":false,
   "parent":"",
